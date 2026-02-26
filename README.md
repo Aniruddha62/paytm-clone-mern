@@ -1,8 +1,61 @@
-# React + Vite
+# Paytm Clone (MERN Stack)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a basic full-stack Paytm clone built using the MERN stack.  
+The project implements user authentication, account balance handling, and basic transaction flow between users.
 
-Currently, two official plugins are available:
+This project was developed to understand how digital wallet systems work at a backend and frontend level.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🚀 Tech Stack
+
+### Frontend
+- React (Vite)
+- Tailwind CSS
+- Axios
+- React Router
+- Recoil (State Management)
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- JWT Authentication
+- Zod (Validation)
+
+---
+
+## ✨ Features
+
+- User Signup & Login
+- JWT-based authentication
+- Protected routes using middleware
+- Account balance creation
+- Basic money transfer functionality
+- Clean and responsive UI
+- REST API structure
+
+---
+
+
+---
+
+## 🔐 Authentication
+
+- JWT tokens are generated on login/signup
+- Protected routes require Bearer token
+- Middleware verifies token before allowing access
+
+---
+
+### Clone Repository
+
+```bash
+git clone https://github.com/your-username/paytm-clone-mern.git
+cd paytm-clone-mern
+
+## Author
+
+ANIRUDDHA BHATTACHARYYA
+
+This project was built as a practice full-stack application to strengthen backend and frontend integration skills.

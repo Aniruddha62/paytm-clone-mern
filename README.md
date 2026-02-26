@@ -37,27 +37,7 @@ The goal of this project was to understand how digital wallet systems work inter
 
 ---
 
-## 📁 Project Structure
-
-paytm-clone-mern/
-│
-├── backend/
-│ ├── index.js
-│ ├── routes/
-│ ├── models/
-│ ├── middleware/
-│ └── config files
-│
-├── frontend/
-│ ├── src/
-│ ├── components/
-│ ├── pages/
-│ └── configuration files
-
-
----
-
-Author
+## Author
 
 ANIRUDDHA BHATTACHARYYA
 

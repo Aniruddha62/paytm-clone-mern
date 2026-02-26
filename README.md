@@ -37,9 +37,6 @@ This project was developed to understand how digital wallet systems work at a ba
 
 ---
 
-
----
-
 ## 🔐 Authentication
 
 - JWT tokens are generated on login/signup
@@ -47,12 +44,6 @@ This project was developed to understand how digital wallet systems work at a ba
 - Middleware verifies token before allowing access
 
 ---
-
-### Clone Repository
-
-```bash
-git clone https://github.com/your-username/paytm-clone-mern.git
-cd paytm-clone-mern
 
 ## Author
 

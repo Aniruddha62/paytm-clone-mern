@@ -1,45 +1,8 @@
-# Paytm Clone – MERN Stack
+# React + Vite
 
-A basic full-stack Paytm clone built using the MERN stack (MongoDB, Express, React, Node.js).  
-This project demonstrates user authentication, account management, and simple peer-to-peer money transfer functionality.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The goal of this project was to understand how digital wallet systems work internally — including authentication, protected routes, database handling, and frontend-backend communication.
+Currently, two official plugins are available:
 
----
-
-## 🚀 Tech Stack
-
-### Frontend
-- React (Vite)
-- Tailwind CSS
-- Axios
-- React Router DOM
-- Recoil (State Management)
-
-### Backend
-- Node.js
-- Express.js
-- MongoDB (Mongoose)
-- JWT (JSON Web Tokens)
-- Zod (Request validation)
-
----
-
-## ✨ Features
-
-- User Signup and Login
-- JWT-based Authentication
-- Protected API routes
-- User account creation with balance
-- Basic money transfer between users
-- Responsive UI with Tailwind CSS
-- RESTful API architecture
-
----
-
-## Author
-
-ANIRUDDHA BHATTACHARYYA
-
-This project was built as a learning project to strengthen full-stack development skills and understand how digital wallet applications function internally.
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

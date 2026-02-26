@@ -1,14 +1,9 @@
-const express = require("express");
-const app=express();
-const port=3000;
-const cors=require("cors");
-const rootRouter=require("./routes/index");
+const express=require("express");
+const router=express.Router();
+const userRouter=require("./user");
+const accountRouter=require("./account");
 
-app.use(cors());
-app.use(express.json());
-app.use("/api/v1", rootRouter);
+router.use("/user", userRouter);
+router.use("/account", accountRouter);
 
-app.listen(port, ()=>{
-    console.log(`listening on port ${port}`);
-})
-
+module.exports=router;

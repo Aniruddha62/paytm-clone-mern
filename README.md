@@ -5,8 +5,6 @@ The project implements user authentication, account balance handling, and basic 
 
 This project was developed to understand how digital wallet systems work at a backend and frontend level.
 
----
-
 ## 🚀 Tech Stack
 
 ### Frontend
@@ -22,9 +20,7 @@ This project was developed to understand how digital wallet systems work at a ba
 - MongoDB (Mongoose)
 - JWT Authentication
 - Zod (Validation)
-
----
-
+  
 ## ✨ Features
 
 - User Signup & Login
@@ -35,18 +31,12 @@ This project was developed to understand how digital wallet systems work at a ba
 - Clean and responsive UI
 - REST API structure
 
----
-
 ## 🔐 Authentication
 
 - JWT tokens are generated on login/signup
 - Protected routes require Bearer token
 - Middleware verifies token before allowing access
 
----
+## 👨‍💻 Author
 
-## Author
-
-ANIRUDDHA BHATTACHARYYA
-
-This project was built as a practice full-stack application to strengthen backend and frontend integration skills.
+**ANIRUDDHA BHATTACHARYYA**
